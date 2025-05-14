@@ -1,10 +1,10 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
+// baseUrl:"http://localhost:8087"
 export const environment = {
   production: false,
-  baseUrl:"http://localhost:8087",
+  baseUrl:"http://springboot-container:8080",
   signupUrl : "/home/signup",
   loginUrl : "/home/auth",
   addToCartUrl : "/user/addToCart",
